@@ -1,0 +1,26 @@
+{
+    "name": "nlybe/geomaps_api",
+    "description": "The Geo Maps plugin offers an API with PHP/JS libraries for the creation geo-visualization maps of Elgg entities",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg", 
+        "plugin",
+        "maps",
+        "geo"
+    ],
+    "homepage": "https://github.com/nlybe/elgg_geomaps_api",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Nikos Lyberakis",
+            "email": "nikos@lyberakis.gr",
+            "role": "Web Developer"
+        }
+    ],
+    "require": {
+        "composer/installers": ">=1.0.8"
+    },
+    "extra": {
+        "installer-name": "geomaps_api"
+    }
+}
