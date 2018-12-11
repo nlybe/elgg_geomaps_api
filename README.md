@@ -6,7 +6,7 @@ Geo Maps API for Elgg
 The Geo Maps plugin offers an API with PHP/JS libraries for the creation geo-visualization maps of Elgg entities
  
 ## Features
-- Elgg input for location autocomplete, compatible with Profile Manager plugin
+- Provides location autocomplete input element, compatible with Profile Manager plugin
 
 
 ## Installation

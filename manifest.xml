@@ -7,7 +7,7 @@
     <category>content</category>
     <category>nlybe</category>
     <category>Maps</category>
-    <description>Geo Maps API for Elgg</description>
+    <description>API with PHP/JS libraries for the creation geo-visualization maps of Elgg entities</description>
     <repository>https://github.com/nlybe/elgg_geomaps_api</repository>
     <website>https://github.com/nlybe/</website>
     <copyright>(C) Nikos Lyberakis 2012 - 2018</copyright>
