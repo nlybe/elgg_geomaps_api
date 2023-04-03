@@ -1,6 +1,6 @@
 # Change Log
 
-## 4.1 (Apr 2023)
+## 4.2 (Apr 2023)
 
 - Upgraded for Elgg 4.3.x compatibility
 - Fixed issue when having multiple autocomplete location fields at the same form
