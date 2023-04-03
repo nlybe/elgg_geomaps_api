@@ -18,17 +18,17 @@ if (!$location && $entity)	{
 $name = elgg_extract("name", $vars, "");
 $class = elgg_extract("class", $vars, "");
 
-$defaults = array(
+$defaults = [
     'id' => 'autocomplete',
     'disabled' => false,
     'type' => 'text',
     'name' => ($name?$name:'location'), 
     'placeholder' => elgg_echo("geomaps_api:search:location"),	
-    'class' => "elgg-input-text txt_medium {$class}", 
+    'class' => "elgg-input-text txt_medium geomaps_api_autocomplete {$class}", 
     'value' => $location,    
     'label' => elgg_extract("label", $vars, ''),
     'help' => elgg_extract("help", $vars, ''),
-);
+];
 
 $vars = array_merge($defaults, $vars);
 

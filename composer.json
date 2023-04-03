@@ -18,9 +18,17 @@
         }
     ],
     "require": {
-        "composer/installers": ">=1.0.8"
+        "composer/installers": ">=1.0.8",
+        "willdurand/geocoder": "@stable",
+        "php-http/guzzle6-adapter": "^2.0",
+        "php-http/message": "^1.7",
+        "geocoder-php/chain-provider": "^4.0",
+        "geocoder-php/google-maps-provider": "^4.0"
     },
     "extra": {
         "installer-name": "geomaps_api"
-    }
+    },
+	"conflict": {
+		"elgg/elgg": "<4.3"
+	}
 }
