@@ -3,7 +3,7 @@ define(function (require) {
     var $ = require('jquery');
     require('geomaps_autocomplete_js');
 
-    $(document).ready(function () {
+    $(function() {
         window.addEventListener('load', (event) => { initAutocomplete(); });
         initAutocomplete();
     });
@@ -33,8 +33,8 @@ define(function (require) {
     }
 
     // prevent form submitted when press enter to autocomplete
-    $(".geomaps_api_autocomplete").keydown(function (event) {
-        if (event.keyCode == 13) {
+    $(".geomaps_api_autocomplete").on( "keydown", function( event ) {
+        if (event.key === 'Enter') {
             event.preventDefault();
             return false;
         }
