@@ -24,6 +24,6 @@
         "installer-name": "geomaps_api"
     },
 	"conflict": {
-		"elgg/elgg": "<4.3"
+		"elgg/elgg": "<5.0"
 	}
 }

@@ -12,7 +12,7 @@ require_once(dirname(__FILE__) . '/lib/events.php');
 $return = [
     'plugin' => [
         'name' => 'GeoMaps API',
-		'version' => '4.3',
+		'version' => '5.4',
 		'dependencies' => [],
 	],	
     'bootstrap' => Bootstrap::class,
